@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+}
+
+.logo{
+    font-size: 30px;
+}
+
+.nav__container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 75px;
+    color: white;
+    width: 90%;
+    margin:auto;
+}
+.navbar{
+    background-color: #202430;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    width: 80%;
+}
+
+.home,
+.Skill,
+.Contact,
+.About,
+.SignUp{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.SignUp{
+    border: 1px solid yellow;
+}
+
