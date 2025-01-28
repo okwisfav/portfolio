@@ -7,6 +7,8 @@ import NODE from '../../img/NODE.png';
 import fiebase from '../../img/fiebase.png';
 import  SASS from '../../img/SASS.png';
 import tAILWIND from '../../img/TAILWIND.png';
+import atom from '../../img/atom.png';
+import typescript from '../../img/typescript.png';
 import './Skills.css';
 
 const skill =[
@@ -33,6 +35,22 @@ const skill =[
     {  
         img: NODE,
         text: 'NODE',
+    },
+    {  
+        img: atom,
+        text: 'React Native',
+    },
+    {  
+        img: tAILWIND,
+        text: 'Tailwind',
+    },
+    {  
+        img: fiebase,
+        text: 'Firebase',
+    },
+    {
+        img: typescript,
+        text: 'TypeScript',
     }
 ]
 const Skills = () => {
@@ -73,6 +91,14 @@ const Skills = () => {
                  <div className='icon__img'>
                      <img src={tAILWIND} alt='tailwind' />
                      <p>Tailwind</p>
+                 </div>
+                 <div className='icon__img'>
+                        <img src={atom} alt='atom' />
+                        <p>React Native</p>
+                 </div>
+                 <div className='icon__img'>
+                        <img src={typescript} alt='atom' />
+                        <p>TypeScript</p>
                  </div>
             </div>
         </div>
