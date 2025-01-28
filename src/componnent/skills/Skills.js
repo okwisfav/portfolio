@@ -55,7 +55,7 @@ const skill =[
 ]
 const Skills = () => {
   return (
-    <div>
+    <div className='skills__container'>
         <div className='skill__section'>
             <h2>SKILLS</h2>
             <p className='p__text__skills'>These are some languages I'm familiar with.</p>
