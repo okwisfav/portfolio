@@ -6,6 +6,25 @@
 
 .skills__container {
     background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; Adjust as needed */
+  
+}
+
+.skill__section h2{
+    margin-bottom: 20px;
+    font-size: 35px;
+    color: #1D212B;
+    font-weight: 800;
+}
+.skill__section p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.skill__section{
+    margin-top: 30px;
 }
 
 .icon__img {
@@ -13,7 +32,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
 }
 
 .icon__img img {
@@ -21,17 +39,24 @@
     height: 60px;
 }
 
+.icon__img {
+    background-color: #1D212B;
+    padding: 20px;
+    border-radius: 20px;
+    width: 150px;
+}
+
 .icons__text__section {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 320px);
     gap: 20px;
-    margin: auto;
 }
 
 .icons__text__section p {
     font-size: 1rem;
-    font-weight: 500;
-    color: #333;
+    color: #fff;
+    font-weight: 700;
     margin: 10px 0;
     text-align: center;
+    
 }
