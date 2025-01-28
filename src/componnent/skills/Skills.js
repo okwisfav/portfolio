@@ -1,13 +1,40 @@
 import React from 'react'
 import html from '../../img/Html.png';
 import css from '../../img/CSS.png';
-import jAVASCRIPT from '../../img/JAVASCRIPT.png';
+import JAVASCRIPT from '../../img/JAVASCRIPT.png';
 import react from '../../img/react.png';
-import nODE from '../../img/NODE.png';
+import NODE from '../../img/NODE.png';
 import fiebase from '../../img/fiebase.png';
-import sASS from '../../img/SASS.png';
+import  SASS from '../../img/SASS.png';
 import tAILWIND from '../../img/TAILWIND.png';
 import './Skills.css';
+
+const skill =[
+    {
+        img: html,
+        text: 'HTML',
+    },
+    {  
+        img: css,
+        text: 'CSS',
+    },
+    {  
+        img: JAVASCRIPT,
+        text: 'css',
+    },
+    {  
+        img: react,
+        text: 'React',
+    },
+    {  
+        img: SASS,
+        text: 'SASS',
+    },
+    {  
+        img: NODE,
+        text: 'NODE',
+    }
+]
 const Skills = () => {
   return (
     <div>
@@ -24,28 +51,28 @@ const Skills = () => {
                      <p>css</p>
                  </div>
                  <div className='icon__img'>
-                     <img src={jAVASCRIPT} alt='html' />
-                     <p className='java'>jAVASCRIPT</p>
+                     <img src={JAVASCRIPT} alt='javascript' />
+                     <p className='java'>JavaScript</p>
                  </div>
                  <div className='icon__img'>
-                     <img src={react} alt='html' />
-                     <p>react</p>
+                     <img src={react} alt='react' />
+                     <p>React</p>
                  </div>
                  <div className='icon__img'>
-                     <img src={nODE} alt='html' />
-                     <p>nODE</p>
+                     <img src={NODE} alt='node' />
+                     <p>Node</p>
                  </div>
                  <div className='icon__img'>
-                     <img src={fiebase} alt='html' />
-                     <p>fiebase</p>
+                     <img src={fiebase} alt='firebase' />
+                     <p>Firebase</p>
                  </div>
                  <div className='icon__img'>
-                     <img src={sASS} alt='html' />
-                     <p>sASS</p>
+                     <img src={SASS} alt='sass' />
+                     <p>SASS</p>
                  </div>
                  <div className='icon__img'>
-                     <img src={tAILWIND} alt='html' />
-                     <p>tAILWIND</p>
+                     <img src={tAILWIND} alt='tailwind' />
+                     <p>Tailwind</p>
                  </div>
             </div>
         </div>
